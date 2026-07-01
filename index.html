@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Petverz — AI-Powered Pet Care Ecosystem</title>
+
+  <meta
+    name="description"
+    content="Petverz combines AI, healthcare, grooming, shopping, and community to give pet owners everything they need in one intelligent, premium, and warm ecosystem. Join our early access today!"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Background Orbs -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar" id="announcement-bar">
+    <div class="announcement-content">
+      <span>
+        🎁 Early Access is Live — Register now and stand a chance to win
+        exclusive Petverz gifts.
+      </span>
+
+      <a href="#early-access" class="announcement-link">
+        Register Now
+        <i data-lucide="arrow-right"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header" id="main-header">
+    <div class="header-container">
+
+      <a href="#" class="logo">
+        <span class="logo-icon">
+          <img
+            src="assets/hero/logoo.jpg"
+            alt="Petverz logo"
+            style="
+              width: 36px;
+              height: 36px;
+              object-fit: cover;
+              object-position: center;
+              display: block;
+              border-radius: 8px;
+            "
+          >
+        </span>
+
+        <span class="logo-text">
+          Pet<span>verz</span>
+        </span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#why-choose-us" class="nav-link">Features</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#community" class="nav-link">Community</a>
+        <a href="#early-access" class="nav-link">Early Access</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="#early-access" class="btn btn-primary btn-header">
+          Join Early Access
+        </a>
+
+        <button
+          class="mobile-toggle"
+          id="mobile-toggle"
+          aria-label="Toggle Menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <nav class="mobile-nav">
+      <a href="#home" class="mobile-nav-link">Home</a>
+      <a href="#why-choose-us" class="mobile-nav-link">Features</a>
+      <a href="#services" class="mobile-nav-link">Services</a>
+      <a href="#community" class="mobile-nav-link">Community</a>
+      <a href="#early-access" class="mobile-nav-link">Early Access</a>
+
+      <a
+        href="#early-access"
+        class="btn btn-primary btn-mobile-cta"
+      >
+        Join Early Access
+      </a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+
+        <div class="hero-content">
+
+          <div class="badge-new animate-pulse">
+            <span class="badge-dot"></span>
+            Intelligent Pet Companion Startup
+          </div>
+
+          <h1 class="hero-title">
+            AI-Powered Pet Care for a
+            <span class="gradient-text-coral">Happier</span>,
+            <span class="gradient-text-indigo">Healthier</span>
+            Companion.
+          </h1>
+
+          <p class="hero-subtitle">
+            Petverz combines AI, healthcare, grooming, shopping, and
+            community to give pet owners everything they need in one
+            intelligent ecosystem.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="#early-access"
+              class="btn btn-primary btn-glow"
+            >
+              Join Early Access
+              <i data-lucide="sparkles"></i>
+            </a>
+
+            <a href="#services" class="btn btn-secondary">
+              Explore Services
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="trust-badges">
+
+            <div class="trust-badge">
+              <div class="badge-icon icon-indigo">
+                <i data-lucide="cpu"></i>
+              </div>
+              <span>AI Powered</span>
+            </div>
+
+            <div class="trust-badge">
+              <div class="badge-icon icon-emerald">
+                <i data-lucide="shield-check"></i>
+              </div>
+              <span>Vet Supported</span>
+            </div>
+
+            <div class="trust-badge">
+              <div class="badge-icon icon-coral">
+                <i data-lucide="users"></i>
+              </div>
+              <span>Community Driven</span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-img-wrapper">
+
+            <img
+              src="assets/hero/WhatsApp%20Image%202026-06-30%20at%2011.33.56%20AM%20(1).jpeg"
+              alt="AI Pet Companion health and wellness dashboard for a dog and cat"
+              class="hero-img"
+            >
+
+            <div class="floating-dashboard-card card-top-left">
+              <div class="card-icon">
+                <i data-lucide="heart-pulse"></i>
+              </div>
+
+              <div class="card-details">
+                <span class="card-title">Pet Vitals</span>
+                <span class="card-val">Stable 100%</span>
+              </div>
+            </div>
+
+            <div class="floating-dashboard-card card-bottom-right">
+              <div class="card-icon icon-orange">
+                <i data-lucide="activity"></i>
+              </div>
+
+              <div class="card-details">
+                <span class="card-title">AI Assistant</span>
+                <span class="card-val">Analysis Active</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="social-proof-section">
+      <div class="container">
+
+        <div class="social-proof-header">
+          <p class="social-proof-tag">
+            Join the first generation of Petverz users.
+          </p>
+
+          <div class="pet-bubbles">
+            <span class="pet-bubble" title="Dogs">🐶 Dogs</span>
+            <span class="pet-bubble" title="Cats">🐱 Cats</span>
+            <span class="pet-bubble" title="Birds">🦜 Birds</span>
+            <span class="pet-bubble" title="Rabbits">🐰 Rabbits</span>
+            <span class="pet-bubble" title="Fish">🐠 Fish</span>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+
+          <div class="stat-card">
+            <h3 class="stat-number" data-target="12540">0</h3>
+            <p class="stat-label">Early Access Members</p>
+          </div>
+
+          <div class="stat-card">
+            <h3 class="stat-number" data-target="8">0</h3>
+            <p class="stat-label">Services Planned</p>
+          </div>
+
+          <div class="stat-card">
+            <h3 class="stat-number" data-target="45">0</h3>
+            <p class="stat-label">Partner Clinics</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Petverz -->
+    <section class="why-choose-section" id="why-choose-us">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-tag">Next-Gen Care</span>
+
+          <h2 class="section-title">
+            Why Pet Owners Choose Petverz
+          </h2>
+
+          <p class="section-desc">
+            Experience a new standard of modern pet care built on
+            artificial intelligence, reliable support systems, and
+            community trust.
+          </p>
+        </div>
+
+        <div class="why-grid">
+
+          <div class="why-card">
+            <div class="why-card-glow"></div>
+
+            <div class="why-icon-box">
+              <i data-lucide="bot"></i>
+            </div>
+
+            <h3 class="why-card-title">AI Pet Assistant</h3>
+
+            <p class="why-card-desc">
+              Understand your pet's behavioral changes, nutritional
+              requirements, and health signs in real-time with our smart
+              companion chatbot.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-glow"></div>
+
+            <div class="why-icon-box icon-emerald">
+              <i data-lucide="stethoscope"></i>
+            </div>
+
+            <h3 class="why-card-title">Trusted Veterinarians</h3>
+
+            <p class="why-card-desc">
+              Connect with certified, experienced veterinary doctors
+              24/7. Get quick diagnostics and digital prescriptions
+              from home.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-glow"></div>
+
+            <div class="why-icon-box icon-coral">
+              <i data-lucide="scissors"></i>
+            </div>
+
+            <h3 class="why-card-title">Grooming Services</h3>
+
+            <p class="why-card-desc">
+              Schedule styling, hygiene care, and custom haircuts with
+              top-rated pet beauticians directly at your doorstep or
+              nearby partner salon.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-glow"></div>
+
+            <div class="why-icon-box icon-orange">
+              <i data-lucide="shield-check"></i>
+            </div>
+
+            <h3 class="why-card-title">Pet Insurance</h3>
+
+            <p class="why-card-desc">
+              Protect your pet and wallet. Get quick quotes, transparent
+              claims, and covers tailormade for all pet breeds.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-glow"></div>
+
+            <div class="why-icon-box icon-blue">
+              <i data-lucide="users-2"></i>
+            </div>
+
+            <h3 class="why-card-title">Community Support</h3>
+
+            <p class="why-card-desc">
+              Share tips, celebrate birthdays, find adoption partners,
+              and organize local meetups with fellow pet parents.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card-glow"></div>
+
+            <div class="why-icon-box icon-yellow">
+              <i data-lucide="home"></i>
+            </div>
+
+            <h3 class="why-card-title">Boarding &amp; Day Care</h3>
+
+            <p class="why-card-desc">
+              Leave your pets in safe hands. Premium, verified pet hosts
+              with daily photo/video updates and AI-monitored facilities.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works-section">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-tag">Seamless Journey</span>
+
+          <h2 class="section-title">How It Works</h2>
+
+          <p class="section-desc">
+            Get started in five simple steps to give your pet the smart,
+            high-tech care they deserve.
+          </p>
+        </div>
+
+        <div class="timeline">
+
+          <div class="timeline-progress">
+            <div
+              class="timeline-progress-bar"
+              id="timeline-bar"
+            ></div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">1</div>
+
+            <div class="timeline-content">
+              <h3 class="timeline-title">Register Your Pet</h3>
+
+              <p class="timeline-desc">
+                Create a digital profile for your dog, cat, bird, or
+                exotic pet with vital details like age, breed, and
+                medical history.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">2</div>
+
+            <div class="timeline-content">
+              <h3 class="timeline-title">
+                Get AI Recommendations
+              </h3>
+
+              <p class="timeline-desc">
+                Receive personalized nutrition schedules, exercise
+                targets, and preemptive wellness tips powered by
+                Petverz AI.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">3</div>
+
+            <div class="timeline-content">
+              <h3 class="timeline-title">Book Services</h3>
+
+              <p class="timeline-desc">
+                Schedule vet consults, local grooming sessions, or
+                high-security pet boarding slots in just a few clicks.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">4</div>
+
+            <div class="timeline-content">
+              <h3 class="timeline-title">Track Health</h3>
+
+              <p class="timeline-desc">
+                Connect wearable devices or logs to view activity rates,
+                heart rate stability, and food intake alerts on your
+                dashboard.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">5</div>
+
+            <div class="timeline-content">
+              <h3 class="timeline-title">Join Community</h3>
+
+              <p class="timeline-desc">
+                Collaborate with local groups, attend pet fairs, or swap
+                advice with trusted veterinarians and pet guardians.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services-section" id="services">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-tag">Explore Offerings</span>
+
+          <h2 class="section-title">
+            All Your Services Under One Roof
+          </h2>
+
+          <p class="section-desc">
+            Designed with care, our services are optimized to ensure
+            convenience for pet owners and maximum comfort for pets.
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="sparkles"></i>
+            </div>
+
+            <h3 class="service-title">AI Pet Companion</h3>
+
+            <p class="service-description">
+              AI chatbot that answers behavioral concerns and predicts
+              seasonal allergies based on location.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon icon-emerald">
+              <i data-lucide="video"></i>
+            </div>
+
+            <h3 class="service-title">Vet Consultation</h3>
+
+            <p class="service-description">
+              Book live video vet visits and secure electronic
+              veterinary records accessible instantly.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon icon-coral">
+              <i data-lucide="bath"></i>
+            </div>
+
+            <h3 class="service-title">Grooming</h3>
+
+            <p class="service-description">
+              Professional clean-ups, custom styling, claw clips, and
+              deep-clean baths at your home.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon icon-orange">
+              <i data-lucide="shopping-bag"></i>
+            </div>
+
+            <h3 class="service-title">Pet Store</h3>
+
+            <p class="service-description">
+              Shop custom kibbles, interactive smart toys, organic
+              treats, and tech pet gadgets.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon icon-blue">
+              <i data-lucide="heart-handshake"></i>
+            </div>
+
+            <h3 class="service-title">Pet Insurance</h3>
+
+            <p class="service-description">
+              Flexible health coverage to ensure your pet is protected
+              during emergencies.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon icon-yellow">
+              <i data-lucide="moon"></i>
+            </div>
+
+            <h3 class="service-title">
+              Boarding &amp; Night Stay
+            </h3>
+
+            <p class="service-description">
+              Certified clean night stay facilities with live feed
+              cameras, pet play gyms, and vets on call.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon icon-pink">
+              <i data-lucide="smile"></i>
+            </div>
+
+            <h3 class="service-title">Pet Community</h3>
+
+            <p class="service-description">
+              Forums, local dog park groups, missing pet alerts, and
+              foster programs in your neighborhood.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon icon-indigo">
+              <i data-lucide="gift"></i>
+            </div>
+
+            <h3 class="service-title">Custom Gifts</h3>
+
+            <p class="service-description">
+              Order customized identity collars, portrait mugs, and
+              recurring monthly pet subscription boxes.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Pet Categories -->
+    <section class="categories-section">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-tag">Universal Love</span>
+
+          <h2 class="section-title">
+            We Care for Every Companion
+          </h2>
+
+          <p class="section-desc">
+            Our platform and AI are optimized to adapt to different pet
+            dynamics, biological schedules, and healthcare guidelines.
+          </p>
+        </div>
+
+        <div class="categories-grid">
+
+          <div class="category-card">
+            <div class="category-visual">
+              <span class="category-emoji">🐶</span>
+
+              <div class="category-svg-bg">
+                <svg
+                  viewBox="0 0 100 100"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    stroke="url(#c-grad-1)"
+                    stroke-width="2"
+                    stroke-dasharray="4 4"
+                  />
+
+                  <defs>
+                    <linearGradient
+                      id="c-grad-1"
+                      x1="0"
+                      y1="0"
+                      x2="100"
+                      y2="100"
+                    >
+                      <stop offset="0%" stop-color="#FF7A59"/>
+                      <stop offset="100%" stop-color="#6366F1"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="category-title">Dogs</h3>
+
+            <p class="category-desc">
+              From giant huskies to toy poodles, we have customized
+              training and diet plans.
+            </p>
+          </div>
+
+          <div class="category-card">
+            <div class="category-visual">
+              <span class="category-emoji">🐱</span>
+
+              <div class="category-svg-bg">
+                <svg
+                  viewBox="0 0 100 100"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    stroke="url(#c-grad-2)"
+                    stroke-width="2"
+                    stroke-dasharray="4 4"
+                  />
+
+                  <defs>
+                    <linearGradient
+                      id="c-grad-2"
+                      x1="0"
+                      y1="0"
+                      x2="100"
+                      y2="100"
+                    >
+                      <stop
+                        offset="0%"
+                        stop-color="#6366F1"
+                        stop-opacity="0.8"
+                      />
+                      <stop
+                        offset="100%"
+                        stop-color="#10B981"
+                        stop-opacity="0.8"
+                      />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="category-title">Cats</h3>
+
+            <p class="category-desc">
+              Precision metrics on feline kidney health indicators,
+              active levels, and cat scratch behavior tracking.
+            </p>
+          </div>
+
+          <div class="category-card">
+            <div class="category-visual">
+              <span class="category-emoji">🦜</span>
+
+              <div class="category-svg-bg">
+                <svg
+                  viewBox="0 0 100 100"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    stroke="url(#c-grad-3)"
+                    stroke-width="2"
+                    stroke-dasharray="4 4"
+                  />
+
+                  <defs>
+                    <linearGradient
+                      id="c-grad-3"
+                      x1="0"
+                      y1="0"
+                      x2="100"
+                      y2="100"
+                    >
+                      <stop offset="0%" stop-color="#10B981"/>
+                      <stop offset="100%" stop-color="#F59E0B"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="category-title">Birds</h3>
+
+            <p class="category-desc">
+              Cage climate metrics, high-vitamin avian formulas, and
+              active song pattern analysis tools.
+            </p>
+          </div>
+
+          <div class="category-card">
+            <div class="category-visual">
+              <span class="category-emoji">🐰</span>
+
+              <div class="category-svg-bg">
+                <svg
+                  viewBox="0 0 100 100"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    stroke="url(#c-grad-4)"
+                    stroke-width="2"
+                    stroke-dasharray="4 4"
+                  />
+
+                  <defs>
+                    <linearGradient
+                      id="c-grad-4"
+                      x1="0"
+                      y1="0"
+                      x2="100"
+                      y2="100"
+                    >
+                      <stop offset="0%" stop-color="#F59E0B"/>
+                      <stop offset="100%" stop-color="#FF7A59"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="category-title">Rabbits</h3>
+
+            <p class="category-desc">
+              Precision dental guides, gastrointestinal tracking
+              schedules, and secure boarding.
+            </p>
+          </div>
+
+          <div class="category-card">
+            <div class="category-visual">
+              <span class="category-emoji">🐠</span>
+
+              <div class="category-svg-bg">
+                <svg
+                  viewBox="0 0 100 100"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    stroke="url(#c-grad-5)"
+                    stroke-width="2"
+                    stroke-dasharray="4 4"
+                  />
+
+                  <defs>
+                    <linearGradient
+                      id="c-grad-5"
+                      x1="0"
+                      y1="0"
+                      x2="100"
+                      y2="100"
+                    >
+                      <stop offset="0%" stop-color="#FF7A59"/>
+                      <stop offset="100%" stop-color="#10B981"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="category-title">Fish</h3>
+
+            <p class="category-desc">
+              Aquarium pH guidelines, temperature monitoring algorithms,
+              and custom reef food catalogs.
+            </p>
+          </div>
+
+          <div class="category-card">
+            <div class="category-visual">
+              <span class="category-emoji">🦎</span>
+
+              <div class="category-svg-bg">
+                <svg
+                  viewBox="0 0 100 100"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    stroke="url(#c-grad-6)"
+                    stroke-width="2"
+                    stroke-dasharray="4 4"
+                  />
+
+                  <defs>
+                    <linearGradient
+                      id="c-grad-6"
+                      x1="0"
+                      y1="0"
+                      x2="100"
+                      y2="100"
+                    >
+                      <stop offset="0%" stop-color="#6366F1"/>
+                      <stop offset="100%" stop-color="#FF7A59"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="category-title">Exotic Pets</h3>
+
+            <p class="category-desc">
+              Reptile heat grids, custom arachnid diet tables, and
+              dedicated expert exotic support.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Early Access -->
+    <section class="early-access-section" id="early-access">
+      <div class="container">
+
+        <div class="early-access-card">
+
+          <div class="ea-glow ea-glow-left"></div>
+          <div class="ea-glow ea-glow-right"></div>
+
+          <div class="early-access-grid">
+
+            <div class="ea-text-side">
+
+              <div class="ea-gift-tag">
+                <i data-lucide="gift"></i>
+                Early Access Incentives
+              </div>
+
+              <h2 class="ea-title">
+                🎁 Join Early Access &amp; Win Exclusive Pet Gifts
+              </h2>
+
+              <p class="ea-desc">
+                Become one of the founding members of Petverz. Register
+                now and stand a chance to win exclusive goodies for
+                your pet.
+              </p>
+
+              <div class="ea-gifts-list">
+                <h4 class="gifts-subtitle">
+                  Every month, 5 early access members win:
+                </h4>
+
+                <ul>
+                  <li>
+                    <span class="check-bullet">
+                      <i data-lucide="check"></i>
+                    </span>
+                    Premium Pet Toys
+                  </li>
+
+                  <li>
+                    <span class="check-bullet">
+                      <i data-lucide="check"></i>
+                    </span>
+                    Grooming Kits
+                  </li>
+
+                  <li>
+                    <span class="check-bullet">
+                      <i data-lucide="check"></i>
+                    </span>
+                    Personalized Accessories
+                  </li>
+
+                  <li>
+                    <span class="check-bullet">
+                      <i data-lucide="check"></i>
+                    </span>
+                    Petverz Merchandise &amp; Surprise Goodies
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+
+            <div class="ea-form-side">
+
+              <div class="form-container" id="form-container">
+                <form
+                  id="early-access-form"
+                  class="early-access-form"
+                >
+
+                  <div class="form-group">
+                    <label for="fullname">Full Name</label>
+
+                    <div class="input-wrapper">
+                      <i data-lucide="user"></i>
+
+                      <input
+                        type="text"
+                        id="fullname"
+                        placeholder="John Doe"
+                        required
+                      >
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Email Address</label>
+
+                    <div class="input-wrapper">
+                      <i data-lucide="mail"></i>
+
+                      <input
+                        type="email"
+                        id="email"
+                        placeholder="john@example.com"
+                        required
+                      >
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="phone">Phone Number</label>
+
+                    <div class="input-wrapper">
+                      <i data-lucide="phone"></i>
+
+                      <input
+                        type="tel"
+                        id="phone"
+                        placeholder="+1 (555) 000-0000"
+                        required
+                      >
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+
+                    <div class="form-group">
+                      <label for="pettype">Pet Type</label>
+
+                      <div class="input-wrapper">
+                        <select id="pettype" required>
+                          <option value="" disabled selected>
+                            Select pet type
+                          </option>
+                          <option value="dog">Dog</option>
+                          <option value="cat">Cat</option>
+                          <option value="bird">Bird</option>
+                          <option value="rabbit">Rabbit</option>
+                          <option value="fish">Fish</option>
+                          <option value="exotic">Exotic Pet</option>
+                          <option value="none">No Pet Yet</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="city">City</label>
+
+                      <div class="input-wrapper">
+                        <i data-lucide="map-pin"></i>
+
+                        <input
+                          type="text"
+                          id="city"
+                          placeholder="San Francisco"
+                          required
+                        >
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn btn-primary btn-submit"
+                    id="submit-btn"
+                  >
+                    <span>Register Now</span>
+                    <i data-lucide="arrow-right"></i>
+                  </button>
+
+                </form>
+              </div>
+
+              <div
+                class="success-container hide"
+                id="success-container"
+              >
+                <canvas id="confetti-canvas"></canvas>
+
+                <div class="success-content text-center">
+                  <div class="success-icon-badge">
+                    <i data-lucide="party-popper"></i>
+                  </div>
+
+                  <h3 class="success-title">
+                    🎉 You're officially part of Petverz Early Access!
+                  </h3>
+
+                  <p class="success-desc">
+                    Thank you for joining our ecosystem! We've sent
+                    confirmation details to your registered email
+                    address. Keep an eye out for our gift raffle
+                    announcements!
+                  </p>
+
+                  <button
+                    class="btn btn-secondary btn-reset"
+                    id="reset-form-btn"
+                  >
+                    Register Another Pet
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section" id="community">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-tag">Community Voices</span>
+
+          <h2 class="section-title">
+            Community Testimonials
+          </h2>
+        </div>
+
+        <div class="testimonials-carousel-wrapper">
+
+          <div
+            class="testimonials-carousel"
+            id="testimonials-carousel"
+          >
+
+            <div class="testimonial-slide active">
+              <div class="testimonial-content">
+
+                <div class="quote-icon">
+                  <i data-lucide="quote"></i>
+                </div>
+
+                <p class="testimonial-text">
+                  "The AI assistant helped me understand my dog's health
+                  better. It suggested a diet shift that solved his
+                  digestion problems within days."
+                </p>
+
+                <div class="testimonial-user">
+                  <div class="user-avatar">🐶</div>
+
+                  <div>
+                    <h4 class="user-name">Sarah Jenkins</h4>
+
+                    <span class="user-role">
+                      Early Access Member &amp; Dog Mom
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="testimonial-slide">
+              <div class="testimonial-content">
+
+                <div class="quote-icon">
+                  <i data-lucide="quote"></i>
+                </div>
+
+                <p class="testimonial-text">
+                  "Booking grooming has never been this easy. The
+                  integrated app and certified pet professionals give me
+                  complete peace of mind."
+                </p>
+
+                <div class="testimonial-user">
+                  <div class="user-avatar">🐱</div>
+
+                  <div>
+                    <h4 class="user-name">Marcus Chen</h4>
+
+                    <span class="user-role">
+                      Early Access Member &amp; Cat Dad
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="testimonial-slide">
+              <div class="testimonial-content">
+
+                <div class="quote-icon">
+                  <i data-lucide="quote"></i>
+                </div>
+
+                <p class="testimonial-text">
+                  "Petverz feels like having a complete pet care
+                  ecosystem. From emergency veterinary support to
+                  premium toys, it's everything in one place."
+                </p>
+
+                <div class="testimonial-user">
+                  <div class="user-avatar">🦜</div>
+
+                  <div>
+                    <h4 class="user-name">Elena Rostova</h4>
+
+                    <span class="user-role">
+                      Early Access Member &amp; Bird Lover
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="testimonial-slide">
+              <div
+                class="testimonial-content testimonial-coming-soon"
+              >
+                <div class="coming-soon-badge">
+                  <i data-lucide="sparkles"></i>
+                  Coming Soon
+                </div>
+
+                <h3 class="coming-soon-title">
+                  Join the Early Access community and help shape the
+                  future of pet care.
+                </h3>
+
+                <p class="coming-soon-desc">
+                  Our dashboard and community portals are currently in
+                  closed beta. Register today to share your journey with
+                  thousands of pet owners!
+                </p>
+
+                <a href="#early-access" class="btn btn-secondary">
+                  Get Early Access
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="carousel-dots" id="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="partners-section">
+      <div class="container text-center">
+
+        <h2 class="partners-title">
+          Our Growing Ecosystem
+        </h2>
+
+        <div class="partners-grid">
+
+          <div class="partner-logo">
+            <svg
+              viewBox="0 0 160 60"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M20 30h20m-10-10v20"
+                stroke="#FF7A59"
+                stroke-width="3"
+                stroke-linecap="round"
+              />
+
+              <text
+                x="50"
+                y="38"
+                font-family="'Plus Jakarta Sans', sans-serif"
+                font-weight="700"
+                font-size="20"
+                fill="white"
+              >
+                VetCare
+              </text>
+            </svg>
+          </div>
+
+          <div class="partner-logo">
+            <svg
+              viewBox="0 0 160 60"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M25 22l10 16h20"
+                stroke="#6366F1"
+                stroke-width="3"
+                stroke-linecap="round"
+              />
+
+              <circle
+                cx="35"
+                cy="38"
+                r="4"
+                fill="#6366F1"
+              />
+
+              <text
+                x="65"
+                y="38"
+                font-family="'Plus Jakarta Sans', sans-serif"
+                font-weight="700"
+                font-size="20"
+                fill="white"
+              >
+                PetShop
+              </text>
+            </svg>
+          </div>
+
+          <div class="partner-logo">
+            <svg
+              viewBox="0 0 160 60"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle
+                cx="30"
+                cy="30"
+                r="12"
+                stroke="#10B981"
+                stroke-width="3"
+              />
+
+              <path
+                d="M30 24v12M24 30h12"
+                stroke="#10B981"
+                stroke-width="2"
+              />
+
+              <text
+                x="55"
+                y="38"
+                font-family="'Plus Jakarta Sans', sans-serif"
+                font-weight="700"
+                font-size="20"
+                fill="white"
+              >
+                Grooming
+              </text>
+            </svg>
+          </div>
+
+          <div class="partner-logo">
+            <svg
+              viewBox="0 0 160 60"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M20 20h20v20H20z"
+                stroke="#F59E0B"
+                stroke-width="3"
+              />
+
+              <path
+                d="M25 30l10 5"
+                stroke="#F59E0B"
+                stroke-width="2"
+              />
+
+              <text
+                x="55"
+                y="38"
+                font-family="'Plus Jakarta Sans', sans-serif"
+                font-weight="700"
+                font-size="20"
+                fill="white"
+              >
+                PetNGO
+              </text>
+            </svg>
+          </div>
+
+          <div class="partner-logo">
+            <svg
+              viewBox="0 0 160 60"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M20 25c15-10 25 15 40 0"
+                stroke="#FF7A59"
+                stroke-width="3"
+                stroke-linecap="round"
+              />
+
+              <text
+                x="70"
+                y="38"
+                font-family="'Plus Jakarta Sans', sans-serif"
+                font-weight="700"
+                font-size="20"
+                fill="white"
+              >
+                SafeShield
+              </text>
+            </svg>
+          </div>
+
+        </div>
+
+        <p class="partners-subtext">
+          More partnerships coming soon.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+      <div class="container faq-container">
+
+        <div class="section-header text-center">
+          <span class="section-tag">Common Inquiries</span>
+
+          <h2 class="section-title">
+            Frequently Asked Questions
+          </h2>
+
+          <p class="section-desc">
+            Have questions about the Petverz ecosystem? Find key answers
+            right here.
+          </p>
+        </div>
+
+        <div class="faq-accordion-group">
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What is Petverz?</span>
+
+              <span class="faq-icon">
+                <i data-lucide="plus"></i>
+              </span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Petverz is an all-in-one AI-powered pet care platform
+                that combines smart pet diagnostics, veterinary remote
+                consultation, custom grooming arrangements, insurance
+                options, high-safety boarding houses, premium
+                e-commerce, and a supportive social network for pet
+                parents.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>When will Petverz launch?</span>
+
+              <span class="faq-icon">
+                <i data-lucide="plus"></i>
+              </span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Our mobile app and portal are currently in closed beta
+                testing. We're launching the public platform globally
+                in Q4 2026. Early access users will receive private
+                invites first, alongside exclusive subscription coupons
+                and launch prizes.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How does Early Access work?</span>
+
+              <span class="faq-icon">
+                <i data-lucide="plus"></i>
+              </span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Signing up registers you in our Priority Beta database.
+                Once our regional services launch in your area, you'll
+                receive a VIP onboarding email to create your pet
+                profile and immediately chat with the AI assistant.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How are gift winners selected?</span>
+
+              <span class="faq-icon">
+                <i data-lucide="plus"></i>
+              </span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                On the 1st of every month, we randomly pick 5 registered
+                email addresses from our Early Access database. Winners
+                are notified directly by email and receive a selection
+                catalog to customize the gifts for their specific pet
+                species.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Is Early Access free?</span>
+
+              <span class="faq-icon">
+                <i data-lucide="plus"></i>
+              </span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Yes, registering and joining our initial beta is 100%
+                free! As a founding member, you will also retain
+                lifetime discount perks on future premium packages.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-brand-col">
+
+          <a href="#" class="logo footer-logo">
+            <span class="logo-icon">
+              <img
+                src="assets/hero/logoo.jpg"
+                alt="Petverz logo"
+                style="
+                  width: 36px;
+                  height: 36px;
+                  object-fit: cover;
+                  object-position: center;
+                  display: block;
+                  border-radius: 8px;
+                "
+              >
+            </span>
+
+            <span class="logo-text">
+              Pet<span>verz</span>
+            </span>
+          </a>
+
+          <p class="footer-tagline">
+            Petverz — Making Pet Care Smarter, Simpler, and More
+            Connected.
+          </p>
+
+          <div class="footer-socials">
+            <a
+              href="https://instagram.com"
+              class="social-link"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+            >
+              <i data-lucide="camera"></i>
+            </a>
+
+            <a
+              href="https://linkedin.com"
+              class="social-link"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+            >
+              <i data-lucide="briefcase"></i>
+            </a>
+
+            <a
+              href="https://twitter.com"
+              class="social-link"
+              target="_blank"
+              rel="noopener"
+              aria-label="X Twitter"
+            >
+              <i data-lucide="send"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Company</h4>
+
+          <ul class="footer-links">
+            <li><a href="#home">About Us</a></li>
+            <li><a href="#why-choose-us">Features</a></li>
+            <li><a href="#services">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Community</h4>
+
+          <ul class="footer-links">
+            <li><a href="#early-access">Early Access</a></li>
+            <li><a href="#home">Partners</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Legal</h4>
+
+          <ul class="footer-links">
+            <li><a href="#home">Privacy Policy</a></li>
+            <li><a href="#home">Terms</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom text-center">
+        <p>
+          &copy; 2026 Petverz Inc. All rights reserved. Crafted for pet
+          lovers everywhere.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
